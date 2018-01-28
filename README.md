@@ -11,3 +11,8 @@ Check out the demo at [http://aceinteract.com/interact](http://aceinteract.com/i
 
 ### Method 2:
 Clone the repo: `git clone origin https://github.com/aceinteract/interact.git`
+
+### Method 3:
+Install with [Bower](http://bower.io): `bower install interact-lib`
+
+

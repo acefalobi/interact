@@ -1,0 +1,21 @@
+{
+  "name": "interact",
+  "homepage": "https://github.com/aceinteract/interact",
+  "authors": [
+    "aceinteract <acefalobi@aceinteract.com>"
+  ],
+  "description": "Interact is a modern html5 library built on bootstrap",
+  "main": "dist/css/interact.css",
+  "keywords": [
+    "bootstrap",
+    "modern"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
