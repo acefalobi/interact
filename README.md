@@ -15,4 +15,6 @@ Clone the repo: `git clone origin https://github.com/aceinteract/interact.git`
 ### Method 3:
 Install with [Bower](http://bower.io): `bower install interact-lib`
 
+### Method 4:
+Install with [NPM](https://www.npmjs.com): `npm install interact-lib`
 
