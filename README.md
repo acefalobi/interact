@@ -6,6 +6,6 @@ Check out the demo at [http://aceinteract.com/interact](http://aceinteract.com/i
 
 ## Getting Started:
 
-### Method 1:
+### Method 1:  [Download the latest version of the library from github]()
 
-#### [Download the latest version of the library from github]()
+### Method 2:  Clone the repo: `git clone origin https://github.com/aceinteract/interact.git`
