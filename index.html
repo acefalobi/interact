@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title>Interact HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans|Montserrat" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link href="./dist/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Ionicons -->
+    <link href="./dist/lib/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Interact CSS -->
+    <link href="./dist./css/interact.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Interact Color CSS -->
+    <link href="./dist/css/interact.colors.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<a id="top"></a>
+<header class="navbar navbar-fixed-top bg-transparent scroll-transition"
+        data-transition-remove="bg-transparent" data-transition-add="bg-white" data-transition-at="400">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img class="brand-light" src="./dist/img/logo-light.png" />
+                    <img class="brand-dark" src="./dist/img/logo.png" />
+                </a>
+            </div>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-icon">
+                <a href="javascript:void(0)" data-toggle="modal" data-target="#search-modal" class="nav-icon">
+                    <i class="ion-ios-search"></i>
+                </a>
+            </li>
+            <li class="nav-icon">
+                <a data-open="menu" href="javascript:void(0)" class="nav-icon">
+                    <i class="ion-navicon"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<nav id="nav-menu" class="navbar-menu">
+    <div class="navbar-menu-inner">
+        <ul class="links">
+            <li class="menu-logo">
+                <a href="index.html">
+                    <img src="./dist/img/logo.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <ul class="extra-menu">
+                    <li>
+                        <ul>
+                            <li><a href="http://aceinteract.com/interact/home-classic.html">Classic Home</a></li>
+                            <li><a href="http://aceinteract.com/interact/home-simple.html">Simple Home</a></li>
+                            <li><a href="http://aceinteract.com/interact/home-shop.html">Shop Home</a></li>
+                            <li><a href="http://aceinteract.com/interact/home-portfolio.html">Portfolio Home</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href="http://aceinteract.com/interact/home-product.html">Product Home</a></li>
+                            <li><a href="http://aceinteract.com/interact/home-application.html">Application Home</a>
+                            <li><a href="http://aceinteract.com/interact/home-service.html">Service Home</a></li>
+                            <li><a href="http://aceinteract.com/interact/home-agency.html">Agency Home</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Pages</a>
+                <ul class="extra-menu">
+                    <li>
+                        <ul>
+                            <li class="text-bold">Account</li>
+                            <li><a href="http://aceinteract.com/interact/account-login.html">Login</a></li>
+                            <li><a href="http://aceinteract.com/interact/account-register.html">Register</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="text-bold">Contact</li>
+                            <li><a href="http://aceinteract.com/interact/contact-form.html">Contact Form</a></li>
+                            <li><a href="http://aceinteract.com/interact/contact-form-map.html">Form + Map</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="text-bold">Information</li>
+                            <li><a href="http://aceinteract.com/interact/info-tandc.html">T and C</a></li>
+                            <li><a href="http://aceinteract.com/interact/info-privacypolicy.html">Privacy Policy</a></li>
+                            <li><a href="http://aceinteract.com/interact/info-about.html">About</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="text-bold">Utility</li>
+                            <li><a href="http://aceinteract.com/interact/utility-404.html">404 Page</a></li>
+                            <li><a href="http://aceinteract.com/interact/utility-500.html">500 Page</a></li>
+                            <li><a href="http://aceinteract.com/interact/utility-comingsoon.html">Coming Soon</a></li>
+                            <li><a href="http://aceinteract.com/interact/utility-maintenance.html">Maintenance</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Shop</a>
+                <ul class="extra-menu">
+                    <li>
+                        <ul>
+                            <li class="text-bold">Shop Pages</li>
+                            <li><a href="http://aceinteract.com/interact/shop-product.html">Product Page</a></li>
+                            <li><a href="http://aceinteract.com/interact/shop-cart.html">Cart Page</a></li>
+                            <li><a href="http://aceinteract.com/interact/shop-checkout.html">Checkout Page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="text-bold">Shop Layouts</li>
+                            <li><a href="http://aceinteract.com/interact/shop-cards.html">Cards</a></li>
+                            <li><a href="http://aceinteract.com/interact/shop-cards-sidebar.html">Cards + Sidebar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+                <ul class="extra-menu">
+                    <li>
+                        <ul>
+                            <li class="text-bold">Blog Post Layout</li>
+                            <li><a href="http://aceinteract.com/interact/blog-post-audio.html">Audio Post</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-post-classic.html">Classic Post</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-post-image-header.html">Image Header Post</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-post-video.html">Video Post</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="text-bold">Blog Layouts</li>
+                            <li><a href="http://aceinteract.com/interact/blog-cards.html">Cards</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-cards-sidebar.html">Cards + Sidebar</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-classic.html">Classic</a></li>
+                            <li><a href="http://aceinteract.com/interact/blog-classic-sidebar.html">Classic + Sidebar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Elements</a>
+                <ul class="extra-menu">
+                    <li>
+                        <ul>
+                            <li><a href="http://aceinteract.com/interact/element-accordion.html">Accordion</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-button.html">Buttons</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-card.html">Cards</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-carousel.html">Carousel</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href="http://aceinteract.com/interact/element-forms.html">Form Elements</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-modal.html">Modals</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-navbar.html">Navbar</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-parallax.html">Parallax</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href="http://aceinteract.com/interact/element-pricing.html">Pricing</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-progressbar.html">Progress Bar</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-testimonial.html">Testimonials</a></li>
+                            <li><a href="http://aceinteract.com/interact/element-typography.html">Typography</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<a href="#top" class="page-scroll btn-anchor-float btn border-secondary btn-icon scroll-transition transparent"
+   data-transition-remove="transparent" data-transition-add="opaque" data-transition-at="700">
+    <i class="ion-android-arrow-up"></i>
+</a>
+
+<div id="search-modal" class="modal fade search-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content bg-transparent">
+            <div class="modal-header bg-transparent">
+                <button type="button" class="close bg-transparent" data-dismiss="modal">
+                    <i class="ion-android-close icon"></i>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <h3 class="text-white">Search</h3>
+                <form class="clearfix">
+                    <div class="input-with-icon">
+                        <i class="ion-ios-search"></i>
+                        <input type="search" name="q" placeholder="Start typing..." />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-body">
+    <section id="cover-section" class="height-100 parallax text-white" data-overlay="7"
+             data-parallax-img="./img/cover1.jpg" data-parallax-speed=".3">
+        <div class="container position-center-y">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h2 class="text-white">Hi, this is Interact</h2>
+                    <hr />
+                    <p>Meet everything you need to make a beautiful and interactive brand</p>
+                    <a href="http://github.com/aceinteract/interact" class="btn btn-lg bg-primary">Start Using Interact</a><br /><br />
+                    <a href="#features-section" class="text-white page-scroll">
+                        Go On<br />
+                        <i class="icon-sm ion-chevron-down animate-attention-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features-section">
+        <div class="container">
+            <h3 class="bottom-hr">Click, Tap, <em>Interact.</em></h3>
+            <p>Give your customers the full <strong>interactive</strong> experience with <a href="http://github.com/aceinteract/interact">Interact</a>.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature media">
+                        <div class="media-left">
+                            <i class="ion-help-buoy icon text-primary"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Customer Support</h5>
+                            <p>
+                                Having problems? Well, you have full access to our customer support 24/7. Contact can be made via
+                                phone, email and our <a href="#">Contact Us</a> page.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature media">
+                        <div class="media-left">
+                            <i class="ion-flash icon text-primary"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Multipurpose</h5>
+                            <p>
+                                Whether you are building a simple one-page company page or building a full out e-commerce site,
+                                <a href="http://github.com/aceinteract/interact">Interact</a> will definitely get you what you need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature media">
+                        <div class="media-left">
+                            <i class="ion-android-color-palette icon text-primary"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Beautiful Style</h5>
+                            <p>
+                                A lot of art and design was taken into consideration during the creation of this them, and as such
+                                it is filled with 100% modern art and design styles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature media">
+                        <div class="media-left">
+                            <i class="ion-edit icon text-primary"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Easy Edit</h5>
+                            <p>
+                                Even though it's probably never going to happen, if you ever need to change how something looks,
+                                <a href="http://github.com/aceinteract/interact">Interact</a> is well-commented and makes editing a piece of cake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="action-section" class="parallax text-white text-center" data-parallax-img="./img/cover2.jpg"
+             data-parallax-speed=".3" data-overlay="9">
+        <div class="container">
+            <h3 class="bottom-hr-center">Start Using <a href="#" class="text-primary">Interact</a> Now</h3>
+            <a href="http://github.com/aceinteract/interact" class="btn bg-primary">Start Using Interact</a>
+        </div>
+    </section>
+    <footer class="bg-dark footer has-secondary-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="text-white">&copy; Copyright 2017 Ace Interact. All Rights Reserved</h6>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ul class="icons list-inline no-margin">
+                        <li>
+                            <a class="text-facebook text-white" href="http://facebook.com">
+                                <i class="ion-social-facebook icon-sm"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-twitter text-white" href="http://twitter.com">
+                                <i class="ion-social-twitter icon-sm"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-instagram text-white" href="http://instagram.com">
+                                <i class="ion-social-instagram icon-sm"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-dribbble text-white" href="http://facebook.com">
+                                <i class="ion-social-dribbble icon-sm"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-googleplus text-white" href="http://plus.google.com">
+                                <i class="ion-social-googleplus icon-sm"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- JQuery -->
+<script src="./dist/lib/jquery/jquery.min.js"></script>
+<!-- JQuery Easing -->
+<script src="./dist/lib/jquery/jquery.easing.1.3.js"></script>
+<!-- Bootstrap JS -->
+<script src="./dist/lib/bootstrap/js/bootstrap.min.js"></script>
+<!-- Parallax JS -->
+<script src="./dist/lib/parallax/parallax.min.js"></script>
+<!-- Interact JS -->
+<script src="./dist/js/interact.min.js"></script>
+</body>
+</html>

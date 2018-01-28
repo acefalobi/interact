@@ -1,0 +1,206 @@
+/* Colors */
+
+/* 
+
+Replace "#E91E63" with your primary color and "#2E3192" with your secondary color
+
+*/
+body {
+    background: #f8f8f8;
+}
+
+a:not(.btn) {
+    color: #2E3192;
+}
+
+.pricing .price, .pricing .pricing-icon {
+    color: #2E3192;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #E91E63;
+}
+
+.list-group-item.active * {
+    color: #FFFFFF;
+}
+
+.input-with-icon i {
+    color: #444444 !important;
+}
+
+input[type="submit"], input[type="button"], button:not(.btn) {
+    background-color: #2E3192;
+    color: #fff;
+}
+
+input[type="submit"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:active,
+input[type="button"]:hover, input[type="button"]:focus, button:not(.btn):hover,
+button:not(.btn):focus, button:not(.btn):active {
+    color: #fff !important;
+}
+
+input[type="checkbox"]:checked + label > span {
+    background-color: #2E3192;
+    color: #FFFFFF;
+}
+
+input[type="radio"]:checked + label > span > span {
+    background-color: #282b80;
+}
+
+.navbar:not(.bg-white) .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+.navbar.bg-white .navbar-nav > li > a, .navbar.bg-white .navbar-nav > li > a > i {
+    color: #E91E63 !important;
+}
+
+.text-dark {
+    color: #232323 !important;
+}
+
+.bg-primary, .btn.bg-primary:hover, .btn.bg-primary:focus {
+    background-color: #E91E63 !important;
+    color: #f5f5f5;
+}
+
+.bg-secondary, .bg-secondary:hover, .bg-secondary:focus {
+    background-color: #2E3192 !important;
+    color: #f5f5f5;
+}
+
+.bg-white, .bg-white:hover, .bg-white:focus {
+    background-color: #ffffff !important;
+}
+
+.bg-white *:not(a) {
+    color: #767676;
+}
+
+.bg-white h1, .bg-white h2, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6 {
+    color: #232323;
+}
+
+.bg-default, .bg-default:hover, .bg-default:focus {
+    background-color: #f2f3f8 !important;
+}
+
+.bg-default {
+    color: #767676;
+}
+
+.bg-default h1, .bg-default h2, .bg-default h3, .bg-default h4, .bg-default h5, .bg-default h6 {
+    color: #555555;
+}
+
+.bg-transparent {
+    background: none !important;
+}
+
+.bg-dark, .bg-dark:hover, .bg-dark:focus {
+    background-color: #232323 !important;
+    color: #f5f5f5;
+}
+
+.bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark h6, .bg-dark label {
+    color: #FFFFFF;
+}
+
+.border-primary {
+    border-color: #E91E63 !important;
+}
+
+.btn.border-primary {
+    background-color: transparent !important;
+    color: #E91E63 !important;
+}
+
+.border-secondary {
+    border-color: #2E3192 !important;
+}
+
+.btn.border-secondary {
+    background-color: transparent !important;
+    color: #2E3192 !important;
+}
+
+.text-primary {
+    color: #E91E63 !important;
+}
+
+.text-secondary {
+    color: #2E3192 !important;
+}
+
+.text-white, .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: #ffffff !important;
+}
+
+.text-facebook:hover, .text-facebook:active, .text-facebook:focus {
+    color: #3b5998 !important;
+}
+
+.text-twitter:hover, .text-twitter:active, .text-twitter:focus {
+    color: #00aced !important;
+}
+
+.text-googleplus:hover, .text-googleplus:active, .text-googleplus:focus {
+    color: #dd4b39 !important;
+}
+
+.text-instagram:hover, .text-instagram:active, .text-instagram:focus {
+    color: #125688 !important;
+}
+
+.text-pinterest:hover, .text-pinterest:active, .text-pinterest:focus {
+    color: #cb2027 !important;
+}
+
+.text-dribbble:hover, .text-dribbble:active, .text-dribbble:focus {
+    color: #ea4c89 !important;
+}
+
+.text-behance:hover, .text-behance:active, .text-behance:focus {
+    color: #053eff !important;
+}
+
+.bg-facebook, .bg-facebook:hover, .bg-facebook:focus {
+    background-color: #3b5998 !important;
+    color: #ffffff;
+}
+
+.bg-twitter, .bg-twitter:hover, .bg-twitter:focus {
+    background-color: #00aced !important;
+    color: #ffffff;
+}
+
+.bg-googleplus, .bg-googleplus:hover, .bg-googleplus:focus {
+    background-color: #dd4b39 !important;
+    color: #ffffff;
+}
+
+.bg-instagram, .bg-instagram:hover, .bg-instagram:focus {
+    background-color: #125688 !important;
+    color: #ffffff;
+}
+
+.bg-pinterest, .bg-pinterest:hover, .bg-pinterest:focus {
+    background-color: #cb2027 !important;
+    color: #ffffff;
+}
+
+.bg-dribbble, .bg-dribbble:hover, .bg-dribbble:focus {
+    background-color: #ea4c89 !important;
+    color: #ffffff;
+}
+
+.bg-behance, .bg-behance:hover, .bg-behance:focus {
+    background-color: #053eff !important;
+    color: #ffffff;
+}
+
+.bottom-hr:after, .bottom-hr-center:after {
+    background: #E91E63 linear-gradient(90deg, #E91E63, #a89cc8, #2E3192);
+}
